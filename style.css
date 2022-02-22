@@ -1,0 +1,23 @@
+.contener{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(112, 31, 101);
+  width: 900px;
+  height: 900px;
+}
+.ceil{
+  display:flex;
+  background-color: rgb(177, 86, 86);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 9%;
+  width: 280px;
+  height: 280px;
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: fantasy;
+  font-size: 22em;
+  color: rgb(15, 2, 36);  
+}
