@@ -1,3 +1,6 @@
+body{
+  width: 900px;
+}
 .contener{
   display: flex;
   flex-wrap: wrap;
@@ -17,7 +20,53 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  font-family: fantasy;
+  font-family:Cantarell,sans-serif;
+  font-weight: bold;
   font-size: 22em;
-  color: rgb(15, 2, 36);  
+  color: rgb(24, 7, 27);  
 }
+header{
+  background-color :rgb(112, 31, 101) ;
+  width: 900px;
+  height: 240px;
+  position: relative;
+  
+}
+#title_game{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: 2px;
+  color: rgb(88, 179, 231);
+  text-align: center;
+  vertical-align:middle;
+ 
+}
+#info{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 4em;
+  letter-spacing: 2px;
+  color: rgb(88, 179, 231);
+  text-align: center;
+  vertical-align:middle;
+  margin-bottom: 10px;
+ 
+}
+#buttonNew{
+  margin-left: 350px;
+  margin-right: 350px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  letter-spacing: 2px;
+  color: rgb(88, 179, 231);
+  text-align: center;
+  vertical-align:middle;
+  background-color :rgb(112, 31, 101) ;
+}
+a{
+  text-decoration: dotted;
+  color: rgb(88, 179, 231);
+}
+
